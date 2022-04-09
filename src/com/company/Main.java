@@ -5,7 +5,7 @@ import java.util.concurrent.CompletableFuture;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        System.out.println("Cambio en master ¡¡¡");
+        System.out.println("Cambio en master ¡¡¡¡¡");
         Main main = new Main();
         CompletableFuture<String> completableFuture = CompletableFuture
                 .supplyAsync(()-> main.task1())
